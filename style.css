@@ -1,0 +1,38 @@
+title { 
+  color: green
+  
+}
+
+h1 {
+  color: red
+
+}
+
+h3 {
+  color: beige
+
+}
+
+a {
+  color: red
+  
+}
+
+body {
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'ayashi'; /* フォントの名前を指定 */
+  src: url('fonts/onryou.ttf') format('TrueType'); /* フォントファイルへのパスを指定 */
+}
+
+body {
+  font-family: 'ayashi', sans-serif;
+  font-size: 30px;
+}
+
+.container {
+  text-align: center;
+  white-space: pre-line;
+}
